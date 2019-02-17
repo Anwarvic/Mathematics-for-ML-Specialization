@@ -1,0 +1,17 @@
+Q1) In this quiz, we shall see how quantities in machine learning can be represented as vectors. These could be in the form of data itself, or model parameters, and so on. We will begin to explore why framing our problem in this form might be a useful thing to do.
+The problem we shall focus on in this exercise is the distribution of heights in a population.
+Since a vector is just a list of numbers, one of the vectors that we can define relates to data that we measure. That is, in this case, we can record the frequency of people with heights between 150cm and 152.5cm, between 152.5cm and 155cm, and so on. We can define this as the vector f with components. This vector can also be represented by the histogram, Which of the following statements, select all that are true?
+A1) - There are at least 15 elements in the frequency vector, \mathbf{f}f.
+    - If another sample was taken under the same conditions, the frequencies would be broadly similar.
+    - The total area of all the bins sums to one.
+
+Q2) One of the tasks of machine learning is to fit a model to data in order to predict the underlying distribution.
+For the heights of a population, a model we may use to predict frequencies is the Normal (or Gaussian) distribution. This is a model for a bell-shaped curve, which looks like this,It has an equation, the exact form of which is unimportant, except that it is dependant on two parameters, the mean, μ, where the curve is centred, and the standard deviation, σ, which is the characteristic width of the bell curve.
+We can put these two parameters in a vector p. Pick the parameter vector \mathbf{p}p which best describes the distribution pictured.
+A2) =[ 155
+		12​	 ]
+
+Q3) Pick the Normal distribution that corresponds the closest to the parameter vector p=[ 3   3​].
+A3) [first image]
+
+Q4) 
