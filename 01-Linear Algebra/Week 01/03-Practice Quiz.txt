@@ -1,0 +1,24 @@
+Q1) This quiz will be to familiarise yourself with vectors and some basic vector operations.
+For the following questions, the vectors a, b, c, d and e refer to those in this diagram:
+https://d3c33hcgiwev3.cloudfront.net/imageAssetProxy.v1/MauqBeTVEeecpQo-qZJ4_g_a42e08b665b90cd0f91ec3a1c4085c33_vectors.png?expiry=1550620800000&hmac=0MgSwQyaHUziGi2zardp7S3FQvpZ237ei3UfjerCc0I
+What is the numerical representation of the vector a?
+A1) [2, 2]
+
+Q2) Which vector corresponds to [−1, 2]
+A2) Vector d
+
+Q3) What vector is 2c?
+Please select all correct answers.
+A3) - [2, 2]
+    - a
+
+Q4) What vector is −b?
+Please select all correct answers.
+A4) - d
+    - [-1, 2]
+
+Q5) What is the vector b+e?
+A5) [-1, -1]
+
+Q6) What is the vector d−b?
+A6) [-2, 4]

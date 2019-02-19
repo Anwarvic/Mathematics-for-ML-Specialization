@@ -1,12 +1,16 @@
 Q1) In this quiz, we shall see how quantities in machine learning can be represented as vectors. These could be in the form of data itself, or model parameters, and so on. We will begin to explore why framing our problem in this form might be a useful thing to do.
 The problem we shall focus on in this exercise is the distribution of heights in a population.
-Since a vector is just a list of numbers, one of the vectors that we can define relates to data that we measure. That is, in this case, we can record the frequency of people with heights between 150cm and 152.5cm, between 152.5cm and 155cm, and so on. We can define this as the vector f with components. This vector can also be represented by the histogram, Which of the following statements, select all that are true?
+Since a vector is just a list of numbers, one of the vectors that we can define relates to data that we measure. That is, in this case, we can record the frequency of people with heights between 150cm and 152.5cm, between 152.5cm and 155cm, and so on. We can define this as the vector f with components. This vector can also be represented by the histogram,
+https://d3c33hcgiwev3.cloudfront.net/imageAssetProxy.v1/roc7gN6-EeezYwo5mdQmhA_426951d71c5d161dcc26db0e9116f747_f1.png?expiry=1550620800000&hmac=GJym0ZhDuva4JUvebLAuslyOpi_kWQA8DLUhXOZpePY
+Which of the following statements, select all that are true?
 A1) - There are at least 15 elements in the frequency vector, \mathbf{f}f.
     - If another sample was taken under the same conditions, the frequencies would be broadly similar.
     - The total area of all the bins sums to one.
 
 Q2) One of the tasks of machine learning is to fit a model to data in order to predict the underlying distribution.
-For the heights of a population, a model we may use to predict frequencies is the Normal (or Gaussian) distribution. This is a model for a bell-shaped curve, which looks like this,It has an equation, the exact form of which is unimportant, except that it is dependant on two parameters, the mean, μ, where the curve is centred, and the standard deviation, σ, which is the characteristic width of the bell curve.
+For the heights of a population, a model we may use to predict frequencies is the Normal (or Gaussian) distribution. This is a model for a bell-shaped curve, which looks like this,
+https://d3c33hcgiwev3.cloudfront.net/imageAssetProxy.v1/zIBq5N6-EeezYwo5mdQmhA_71059b2f7bdb136d5243b83262cc42e6_f3.png?expiry=1550620800000&hmac=NkW1pwVy2umB2Dpuyjm43WDKpy8KWZpg2_UprTaWJCk
+It has an equation, the exact form of which is unimportant, except that it is dependant on two parameters, the mean, μ, where the curve is centred, and the standard deviation, σ, which is the characteristic width of the bell curve.
 We can put these two parameters in a vector p. Pick the parameter vector \mathbf{p}p which best describes the distribution pictured.
 A2) =[ 155
 		12​	 ]
@@ -14,4 +18,38 @@ A2) =[ 155
 Q3) Pick the Normal distribution that corresponds the closest to the parameter vector p=[ 3   3​].
 A3) [first image]
 
-Q4) 
+Q4) A model allows us to predict the data in a distribution. In our example we can start with a parameter vector p and convert it to a vector of expected frequencies g.
+A model is only considered good if it fits the measured data well. Some specific values for the parameters will be better than others for a model. We need a way fit a model's parameters to data and quantify how good that fit is. 
+One way of doing so is to calculate the "residuals", which is the difference between the measured data and the modelled prediction for each histogram bin.
+This is illustrated below. The model is shown in pink, the measured data is shown in orange and where they overlap is shown in green. The height of the pink and orange bars are the residuals.
+A better fit would have as much overlap as it can, reducing the residuals as much as possible.
+How could the model be improved to give the best fit to the data?
+A4) - Keep the standard deviation, σ, approximately the same.
+    - Increase the mean μ.
+
+Q5) The performance of a model can be quantified in a single number. One measure we can use is the Sum of Squared Residuals, SSR. Here we take all of the residuals (the difference between the measured and predicted data), square them and add them together.
+In the language of vectors we can write this as, SSR(p) = |f-g|^2, which will be explained further on in this course.
+Use the following code block to play with parameters of a model, and try to get the best fit to the data.
+# Play with values of μ and σ to find the best fit.
+μ = 160 ; σ = 6
+p = [μ, σ]
+histogram(p)
+Find a set of parameters with a fit SSR ≤ 0.00051
+Input your fitted parameters into the code block below.
+A5) μ = 178 ; σ = 7.5 -> 0.000475
+
+Q6) Since each parameter vector p represents a different function, each with its own value for the sum of squared residuals, SSR, we can draw the surface of SSR values over the space spanned by p, such as μ and σ in this example.
+Here is an illustration of this surface for our data.
+https://d3c33hcgiwev3.cloudfront.net/imageAssetProxy.v1/yOx5NBmsEeisrRLwSdgmQg_4feb9a950cc718071cf996ebd8092f08_surface.png?expiry=1550620800000&hmac=yDbeOYjm50mLdn18r43erIY68duXK7nVV0EevLS6IAc
+We can also take a ‘top-down’ view of the surface, and view it as a contour map, where each of the contours (in green here) represent a constant value for the SSR.
+https://d3c33hcgiwev3.cloudfront.net/imageAssetProxy.v1/wiqVExmsEeiahA5ak_Esmg_d0ece5b61a7d84ad7c123881e807db87_contour.png?expiry=1550620800000&hmac=NWDpu3ZEaTRu07a19-LIJWAclVGGligAeSjpZCT4zx4
+The goal in machine learning is to find the parameter set where the model fits the data as well as it possibly can. This translates into finding the lowest point, the global minimum, in this space.
+Select all true statements below.
+A6) - Moving at right angles to contour lines in the parameter space will have the greatest effect on the fit than moving in other directions.
+	- Each point on the surface represents a set of parameters p}=[μ, σ]
+
+Q7) We can define another vector, Δp, in the same space as p that tells us what change can be made to p to get a better fit. For example, a model with parameters p'=p+Δp will produce a better fit to data, if we can find a suitable Δp.
+The second course in this specialisation will detail how to calculate these changes in parameters, Δp.
+Given the following contour map,
+https://d3c33hcgiwev3.cloudfront.net/imageAssetProxy.v1/sjo7OxmsEeiwLApX5soR2g_93eb6bde5ca7a51536b85da8c27c991c_contour2.png?expiry=1550620800000&hmac=-ouInQ1tK87Doe_0ZMUvI6SyUZAclZDJkv0VrZsp9H4
+A7) Δp=[−2, 2]
