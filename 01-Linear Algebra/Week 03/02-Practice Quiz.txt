@@ -1,0 +1,11 @@
+Q1) You go to the shops on Monday and buy 1 apple, 1 banana, and 1 carrot; the whole transaction totals €15. On Tuesday you buy 3 apples, 2 bananas, 1 carrot, all for €28. Then on Wednesday 2 apples, 1 banana, 2 carrots, for €23.
+Construct a matrix and vector for this linear algebra system. That is, for
+A[a, b, c] = [S_Mon, S_Tue, S_Wed]
+Where a, b, c, are the prices of apples, bananas, and carrots. And each ss is the total for that day.
+Fill in the components of A and s
+A1) A = [[1, 1, 1],
+	     [3, 2, 1],
+	     [2, 1, 2]]
+s = [15, 28, 23]
+
+Q2) Given another system, Br=t
