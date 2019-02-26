@@ -9,3 +9,73 @@ A1) A = [[1, 1, 1],
 s = [15, 28, 23]
 
 Q2) Given another system, Br=t
+[[4, 6, 2]     [a    [9
+ [3, 4, 1]   .  b  =  7
+ [2, 8, 13]]    c]    2]
+We wish to convert this to echelon form, by using elimination. Starting with the first row, if we divide the whole row by 4, then the top-left element of the matrix becomes 1,
+[[1, 3/2, 1/2]   [a    [9/4
+ [3, 4, 1]     .  b  =  7
+ [2, 8, 13]]      c]    2]
+Next, we need to fix the second row. This results in the following,
+[[1, 3/2, 1/2]   [a    [9/4
+ [0, 1, 1]     .  b  =  -1/2
+ [2, 8, 13]]      c]     2]
+What steps did we take?
+A2) The new second row, ②′′ is the old second row minus three times the old first row, then all multiplied by -2, i.e., ②′′=[②′−3①′]×(−2).
+
+Q3) From the previous question, our system is almost in echelon form.
+[[1, 3/2, 1/2]    [a    [9/4
+ [0, 1, 1]      .  b  =  -1/2
+ [2, 8, 13]]       c]     2]
+Fix row 3 to be a linear combination of the other two. What is the echelon form of the system?
+A3) [[1, 3/2, 1/2]    [a    [9/4
+ 	 [0,   1,   1]  .  b  = -1/2
+ 	 [0,   0,   1]]    c]     0]
+
+Q4) Taking your answer from the previous part, use back substitution to solve the system.
+What is the value of [a, b, c]
+A4) [3, -1/2, 0]
+
+Q5) Let's return to the apples and bananas from Question 1.
+Take your answer to Question 1 and convert the system to echelon form. I.e.,
+[[1, A12, A13]    [a    [s1
+ [0,  1,  A23]  .  b  =  s2
+ [0,  0,  1 ]]     c]    s3]
+Find values for A and s
+A5) # Replace A and s with the correct values below:
+	A = [[ 1 , 1, 1],
+	     [ 0,  1, 0],
+	     [ 0,  0 , 1]]
+	s = [15, 7, 5]
+
+Q6) Following on from the previous question; now let's solve the system using back substitution.
+What is the price of apples, bananas, and carrots?
+A6) # Replace a, b, and c with the correct values below:
+	s = [3, 7, 5]
+
+Q7) If every week, you go to the shops and buy the same amount of apples, bananas, and oranges on Monday, Tuesday, and Wednesday; and every week you get a new list of daily totals - then you should solve the system in general.
+That is, find the inverse of the matrix you used in Question 1.
+A7) # Replace the matrix elements with the correct values below:
+	Ainv = [[-1.5, 0.5, 0.5],
+	        [2, 0, -1],
+	        [0.5, -0.5, 0.5]]
+
+Q8) In practice, for larger systems, one never solves a linear system by hand as there are software packages that can do this for you - such as numpy in Python.
+Use this code block to see numpy invert a matrix.
+You can try to invert any matrix you like. Try it out on your answers to the previous question.
+			import numpy as np
+			A = [[1, 1, 3],
+			     [1, 2, 4],
+			     [1, 1, 2]]
+			Ainv = np.linalg.inv(A)
+In general, one shouldn't calculate the inverse of a matrix unless absolutely necessary. It is more computationally efficient to solve the linear algebra system if that is all you need.
+Use this code block to solve the following linear system with numpy. Ar=s
+A = [[4, 6, 2]       [a    [9
+     [3, 4, 1]    .   b =   7
+     [2, 8, 13]]      c]    2]
+A7) import numpy as np
+	A = [[4, 6, 2],
+	     [3, 4, 1],
+	     [2, 8, 13]]
+	s = [9, 7, 2]
+	r = np.linalg.solve(A, s)
