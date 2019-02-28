@@ -1,0 +1,15 @@
+Q1) In the following quiz, you will practice how to use the chain rule. Some questions look tricky, but just stick to the rules you know!
+If f(x) = g(h(x)), what is the differential of ff with respect to x, in terms of g and h?
+A1) f′(x)=g′(h(x))h′(x)
+
+Q2) Differentiate with respect to xx the function f(x) = \sqrt{x^3 - 2x} = (x^3 - 2x)^{1/2}
+A2) f′(x)=2x^3 / 2 (x^3 - 2x)^-0.5
+
+Q3) Differentiate with respect to xx the function f(x) = e^{x^3 - 3}
+A3) f′(x)=3x^2 . e^(x^3 −3)
+
+Q4) Differentiate with respect to xx the function f(x) = \sqrt{e^{x+2}}
+A4) f′(x)= 1/2 (e^(x+2))
+
+Q5) If f(t) = f(y(x(t))), what is the differential of f with respect to t, in terms of f, y, x and t?
+​A5) f′(t)=f′(y(x(t)))⋅y′(x(t))⋅x′(t)

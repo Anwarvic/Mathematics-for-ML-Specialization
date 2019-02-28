@@ -1,0 +1,20 @@
+Q1) In this quiz you will practice estimating the derivative of a function by choosing the most suitable graphs.
+Estimate the gradient of the tangent to the function at the point (4, 2)(4,2) based on the image below.
+https://d3c33hcgiwev3.cloudfront.net/imageAssetProxy.v1/ijz4dAgfEei_ZQ6W1G11dA_232e49b62ce8c6d622e7387d516834bd_2100.png?expiry=1551484800000&hmac=C_3BkggcAzTYkOxBF4WsS8qDOomZuLAHhURp_ga-CZE
+A1) The gradient is 1.
+
+Q2) Which diagram best describes the differential of the function in the following graph?
+https://d3c33hcgiwev3.cloudfront.net/imageAssetProxy.v1/2irdoQFKEei8AA61d4KNnA_261709fea3f7f7b0b3d22d474c6d5ed1_2200.png?expiry=1551484800000&hmac=xg9L5XHO8rja1ySLO3IMWJIbxf0Lv-O9hGZ_-BrgDIs
+A2) https://d3c33hcgiwev3.cloudfront.net/imageAssetProxy.v1/6tDLywFKEeiIiQpriP2g2A_3da0339471e19f9f8b18c83994601c28_2201.png?expiry=1551484800000&hmac=-SdeoH16gfgWTsIEu9rwghkq9FiER6zdXLGvgC391lA
+
+Q3) Which diagram best describes the differential of the function in the following diagram?
+A3) https://d3c33hcgiwev3.cloudfront.net/imageAssetProxy.v1/a00ZcAFLEei8AA61d4KNnA_f6607037de8aac44d0f967a9fed950a6_2201.png?expiry=1551484800000&hmac=J6mltz65IZNNwt-p7ki3sNrldDC1D7BMTw7Tg0Dmmb0
+
+Q4) Which diagram(s) has a differential described by the following image? Choose all correct answers.
+https://d3c33hcgiwev3.cloudfront.net/imageAssetProxy.v1/uRf0rwFLEeixHxKyqA_btg_5ca958b4c1f0d0eaea07d26d297d46c7_2200.png?expiry=1551484800000&hmac=XZSckcOCniZMyjk9L1M01azIb-PK8D7DHUgOOb7FXbE
+A4) https://d3c33hcgiwev3.cloudfront.net/imageAssetProxy.v1/xxGvTgFLEei8AA61d4KNnA_4e2ffce267f961d56dddb3d821c5614a_2401.png?expiry=1551484800000&hmac=zTR6g39ZFbCkwE66u76kHpEnLZOTjbALwGi0Fp3QcAQ
+	https://d3c33hcgiwev3.cloudfront.net/imageAssetProxy.v1/zrpw2gFLEei8sQphsIDdpA_c4bf313f807307c9f6dd6c7064c535a8_2402.png?expiry=1551484800000&hmac=QX-r0pAA20NSIBD6_9LjXGiilZ3e-stFq1VczWw5MLk
+
+Q5) What is the derivative at 00 for the function in the graph below?
+https://d3c33hcgiwev3.cloudfront.net/imageAssetProxy.v1/AmICjgFMEeiIiQpriP2g2A_7185dbef8c34258b5405ba70ed2c1daa_2500.png?expiry=1551484800000&hmac=S2t2t24-LVFLeOlL2wkO0d5P7kyq9cHuLWAcIJGaI5Y
+A5) No derivative exists.
