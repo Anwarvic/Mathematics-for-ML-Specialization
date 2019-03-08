@@ -6,7 +6,7 @@ Fill in the components of A and s
 A1) A = [[1, 1, 1],
 	     [3, 2, 1],
 	     [2, 1, 2]]
-s = [15, 28, 23]
+	s = [15, 28, 23]
 
 Q2) Given another system, Br=t
 [[4, 6, 2]     [a    [9
@@ -73,9 +73,4 @@ Use this code block to solve the following linear system with numpy. Ar=s
 A = [[4, 6, 2]       [a    [9
      [3, 4, 1]    .   b =   7
      [2, 8, 13]]      c]    2]
-A7) import numpy as np
-	A = [[4, 6, 2],
-	     [3, 4, 1],
-	     [2, 8, 13]]
-	s = [9, 7, 2]
-	r = np.linalg.solve(A, s)
+A8) s = [9, 7, 2]
