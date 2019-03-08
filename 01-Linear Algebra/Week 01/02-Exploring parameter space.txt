@@ -16,7 +16,7 @@ A2) =[ 155
 		12​	 ]
 
 Q3) Pick the Normal distribution that corresponds the closest to the parameter vector p=[ 3   3​].
-A3) [first image]
+A3) https://d3c33hcgiwev3.cloudfront.net/imageAssetProxy.v1/GRx4u97BEeezYwo5mdQmhA_f99b0e85ee15ed9b5f972f6c7e5b06fa_q3.a.png?expiry=1552521600000&hmac=Wh812xwq7aL0qom233MqjE_ImmlpfyADLL1mSiHsab8
 
 Q4) A model allows us to predict the data in a distribution. In our example we can start with a parameter vector p and convert it to a vector of expected frequencies g.
 A model is only considered good if it fits the measured data well. Some specific values for the parameters will be better than others for a model. We need a way fit a model's parameters to data and quantify how good that fit is. 
@@ -37,6 +37,7 @@ histogram(p)
 Find a set of parameters with a fit SSR ≤ 0.00051
 Input your fitted parameters into the code block below.
 A5) μ = 178 ; σ = 7.5 -> 0.000475
+	p = [178, 7.5]
 
 Q6) Since each parameter vector p represents a different function, each with its own value for the sum of squared residuals, SSR, we can draw the surface of SSR values over the space spanned by p, such as μ and σ in this example.
 Here is an illustration of this surface for our data.
