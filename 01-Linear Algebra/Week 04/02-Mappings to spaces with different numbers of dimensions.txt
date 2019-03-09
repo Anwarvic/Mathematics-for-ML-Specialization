@@ -19,7 +19,7 @@ Q3) Based on your answer to the previous question, or otherwise, you should now 
 Since A will take a 3D vector, r, and transform it into a 2D vector, r', we only need to write the first two rows of A. That is, A will be a 2x3 matrix. Remember, the columns of a matrix are the vectors in the new space that the unit vectors of the old space transform to - and in our new space, our vectors will be 2D.
 What is the value of A?
 A3) [[1, 0, -s1/s3]
-	 [0, 1, -s2/s3]]
+	   [0, 1, -s2/s3]]
 
 Q4) A is a 2x3 matrix, but if you were to evaluate its third row, what would it's components be?
 A4) # Fill in the components of the 'third' row of A,
@@ -28,7 +28,7 @@ A4) # Fill in the components of the 'third' row of A,
 Q5) Assume the Sun's rays come in at a direction s^ = [4/13, -3/13, -12/13] Construct the matrix, A, and apply it to a point, r=[6, 2, 3], on an object in our space to find the coordinates of that point's shadow.
 Give the coordinates of r'
 A5) # Give the coordinates for r'
-	rp = [5, 11/4]
+	rp = [5, 11/4]    (WRONG)
 
 Q6) Another use of non-square matrices is applying a matrix to a list of vectors.
 Given our transformation r' = Ar, this can be generalized to a matrix equation, R' = AR, where R' and R are matrices where each column are corresponding r' and rr vectors, i.e.,
