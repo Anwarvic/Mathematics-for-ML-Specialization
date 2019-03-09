@@ -4,18 +4,18 @@ A1) λ^2 −3λ+2=0
 ​	λ1 = 1, λ2 = 2
 
 Q2) Recall that for a matrix A, the eigenvectors of the matrix are vectors for which applying the matrix transformation is the same as scaling by some constant. For A = [[1, 0], [0, 2]] as immediately above, select all eigenvectors of this matrix.
-A2) [0, 2]
-	[1, 0]
-	[0, 3]
+A2) - [0, 2]
+	- [1, 0]
+	- [0, 3]
 
 Q3) For the matrix A = [[3, 4], [0, 5]], what is the characteristic polynomial, and the solutions to the characteristic polynomial?
 A3) λ^2 −8λ+15=0
 ​	λ1 = 3, λ2 = 5
 
 Q4) For the matrix A =[[3, 4][0, 5]] as immediately above, select all eigenvectors of this matrix.
-A4) [3, 0]
-	[-1, -1/2]
-	[2, 1]
+A4) - [3, 0]
+	- [-1, -1/2]
+	- [2, 1]
 
 Q5) For the matrix A = [[1, 0], [-1, 4]], what is the characteristic polynomial, and the solutions to the characteristic polynomial?
 A5) λ^2 −5λ+4=0
@@ -30,9 +30,9 @@ A7) λ^2 −25=0
 ​	λ1 = 5, λ2 = -5
 
 Q8) For the matrix A = [[-3, 8], [2, 3]] as immediately above, select all eigenvectors of this matrix.
-A8) [4, -1]
-	[1, 1]
-	[-1, -1]
+A8) - [4, -1]
+	- [1, 1]
+	- [-1, -1]
 
 Q9) For the matrix A = [[5, 4], [-4, -3]], what is the characteristic polynomial, and the solutions to the characteristic polynomial?
 A9) λ^2 −2λ+1=0

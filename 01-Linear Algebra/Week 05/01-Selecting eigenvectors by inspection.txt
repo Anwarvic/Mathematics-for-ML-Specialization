@@ -5,9 +5,9 @@ The transformation T =[[2, 0], [0, 2]] is applied, which sends the three vectors
 [2, 2] and the orange vector [0, 2], respectively.
 https://d3c33hcgiwev3.cloudfront.net/imageAssetProxy.v1/Z_1tR-PvEeecpQo-qZJ4_g_c4d0e4a759d0a182d396003a5808e5d3_D.png?expiry=1551398400000&hmac=va0MD0T4yUFI4k06xpY47zoIsb1RiDdMy0sl5jri4yg
 Which of the three original vectors are eigenvectors of the linear transformation T?
-A1) [1, 0]
-    [1, 1]
-    [0, 1]
+A1) - [1, 0]
+    - [1, 1]
+    - [0, 1]
 
 Q2) Recall that for a linear transformation, an eigenvector is a vector which, after applying the transformation, stays in the same span. In the following questions, you will try to geometrically see which vectors of a linear transformation are eigenvectors.
 In the following diagram, the dark green vector is given by [1, 0], the purple vector by [1, 1] and the brown vector by 
@@ -16,8 +16,8 @@ The transformation T =[[3, 0], [0, 2]] is applied, which sends the three vectors
 [3, 2] and the orange vector [0, 2], respectively.
 https://d3c33hcgiwev3.cloudfront.net/imageAssetProxy.v1/ioKNZ-PvEee78hLOKMVkFA_cea349f982748fa43cb39634bede2808_E.png?expiry=1551398400000&hmac=mlKFOS74uJsrddKzLdlStP4PGrlJemmFVYq3QOs-r28
 Which of the three original vectors are eigenvectors of the linear transformation T?
-A2) [1, 0]
-    [1, 1]
+A2) - [1, 0]
+    - [0, 1]
 
 Q3) Recall that for a linear transformation, an eigenvector is a vector which, after applying the transformation, stays in the same span. In the following questions, you will try to geometrically see which vectors of a linear transformation are eigenvectors.
 In the following diagram, the dark green vector is given by [1, 0], the purple vector by [1, 1] and the brown vector by 
@@ -44,9 +44,9 @@ The transformation T =[[-1, 0], [0, -1]] is applied, which sends the three vecto
 [-1, -1] and the orange vector [0, -1], respectively.
 https://d3c33hcgiwev3.cloudfront.net/imageAssetProxy.v1/njsI0uPuEeeYnw5-iv6xCA_9350e443fd1b6cde5f168b6ceb36d3ef_B.png?expiry=1551398400000&hmac=ReCytKGjQc-JRqhaBG8bFMOoouUm0bv1v5kCO5yiG4E
 Which of the three original vectors are eigenvectors of the linear transformation T?
-A5) [1, 0]
-    [1, 1]
-    [0, 1]
+A5) - [1, 0]
+    - [1, 1]
+    - [0, 1]
 
 Q6) Recall that for a linear transformation, an eigenvector is a vector which, after applying the transformation, stays in the same span. In the following questions, you will try to geometrically see which vectors of a linear transformation are eigenvectors.
 In the following diagram, the dark green vector is given by [1, 0], the purple vector by [1, 1] and the brown vector by 
