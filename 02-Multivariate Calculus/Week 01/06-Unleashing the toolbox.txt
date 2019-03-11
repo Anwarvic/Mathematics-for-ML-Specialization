@@ -1,0 +1,15 @@
+Q1) In this assessment, you will be tested on all of the different topics you have in covered this module. Good luck!
+What is the derivative of the function f(x) = x^{3/2} + π x^2 + \sqrt{7} evaluated at the point x = 2?
+A1) f′(2)= 2*sqrt(2)/2 + 4π
+
+Q2) What is the derivative of the function f(x) = x^3cos(x)e^x?
+A2) f′(x) = −e^x*x^3*sin(x) + e^x * x^3 * cos(x) + 3 * e^x * x^2 * cos(x)
+
+Q3) What is the derivative of the function f(x) = e^{[(x+1)^2]}
+A3) f′(x)=2(x+1) * e^[(x+1)^2]
+
+Q4) What is the derivative of the function f(x) = x^2cos(x^3)?
+A4) f′(x)=2x * cos(x^3) − 3x^4 * sin(x^3)
+
+Q5) What is the derivative of the function f(x) = sin(x)e^{cos(x)} at the point x = π?
+A5) f′(π) = −1/e​	
