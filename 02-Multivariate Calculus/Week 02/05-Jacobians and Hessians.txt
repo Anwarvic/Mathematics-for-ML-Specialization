@@ -1,0 +1,16 @@
+Q1) In this assessment, you will be tested on all of the different topics you have in covered this module. Good luck!
+Calculate the Jacobian of the function f(x, y, z) = x^2cos(y) + e^zsin(y) and evaluate at the point (x,y,z)=(π,π,1).
+A1) J(x,y,z)=(−2π,−e,0)
+
+Q2) Calculate the Jacobian of the vector valued functions:
+u(x, y) = x^2y - cos(x)sin(y) and v(x, y) = e^{x+y} and evaluate at the point (0,π).
+A2) [[0, e^π], [1, e^π]]  (WRONG)
+
+Q3) Calculate the Hessian for the function f(x, y) = x^3cos(y) - xsin(y)
+A3) [[6x.cos(x), -3x^2.sin(y)-cos(y)], [-3x^2.sin(y)-cos(y), x.sin(y)-x^3.cos(y)]]
+
+Q4) Calculate the Hessian for the function f(x, y, z) = xy + sin(y)sin(z) + z^3e^x
+A4) H = [[e^x.z^3, 1, 3e^x.z^2], [1, -sin(y).sin(z), cos(y).cos(z)], [3e^x.z^2, cos(y).cos(z), 6e^x.z-sin(y).sin(z)]]
+
+Q5) Calculate the Hessian for the function f(x, y, z) = xycos(z) - sin(x)e^yz^3 and evaluate at the point (x,y,z)=(0,0,0)
+A5) [[0, 1, 0], [1, 0, 0], [0, 0, 0]]
