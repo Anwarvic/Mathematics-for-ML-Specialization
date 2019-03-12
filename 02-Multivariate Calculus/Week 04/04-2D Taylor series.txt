@@ -1,0 +1,19 @@
+Q1) Now you have seen how to calculate the multivariate Taylor series, and what zeroth, first and second order approximations look like for a function of 2 variables. In this course we won't be considering anything higher than second order for functions of more than one variable.
+In the following questions you will practise recognising these approximations by thinking about how they behave with different xx and yy, then you will calculate some terms in the multivariate Taylor series yourself.
+The following plot features a surface and its Taylor series approximation in red, around a point given by a red circle. What order is the Taylor series approximation?
+https://d3c33hcgiwev3.cloudfront.net/imageAssetProxy.v1/0NyD_AX8Eeiu6g4-2AcSqA_ebec026f13ec95ab245ab74cfca0c460_Q1a_BZ.gif?expiry=1552348800000&hmac=nRP8UkYVF7q3zoSkhdkgnXqQKTdYZPtVABIvZhS3vHU
+A1) Zeroth order
+
+Q2) What order Taylor series approximation, expanded around the red circle, is the red surface in the following plot?
+https://d3c33hcgiwev3.cloudfront.net/imageAssetProxy.v1/5gM_3QX8Eeiu6g4-2AcSqA_2a2e2378db89e0a37800735c02242a22_Q2a_BZ.gif?expiry=1552348800000&hmac=sqk-viNsz3NLXMG8HGq8EyUQ0sBRZ0RHZ2rlKqGRAt4
+A2) Second order
+
+Q3) Which red surface in the following images is a first order Taylor series approximation of the blue surface? The original functions are given, but you don't need to do any calculations.
+A3) f(x,y)=xsin(x^2/2 + y^2/4)
+
+Q4) Recall that up to second order the multivariate Taylor series is given by f(x+Δx)=f(x)+J_f.Δx+1/2Δx^T.H_f.Δx+...
+Consider the function of 2 variables, f(x,y) = xy^2e^{-x^4-y^2/2}. Which of the following is the first order Taylor series expansion of ff around the point (-1,2)?
+A4) f1(−1+Δx,2+Δy)=−4e^−3 - 12e^−3 .Δx + 4e^−3 Δy
+
+Q5) Now consider the function f(x,y) = sin(πx - x^2y). What is the Hessian matrix H_f that is associated with the second order term in the Taylor expansion of f around (1,π)?
+A5) H_f = [[-2π, -2], [-2, 0]]

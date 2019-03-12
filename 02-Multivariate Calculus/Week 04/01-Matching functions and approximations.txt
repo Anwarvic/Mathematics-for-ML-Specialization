@@ -1,0 +1,37 @@
+Q1) As mentioned in the previous video, the Taylor series approximation can also be viewed as a power series, in which these approximations are used to build functions that are often simpler and easier to evaluate, particularly when using numerical methods. In the following questions, we are looking at developing our understanding of how the increasing order of a power series allows us to develop further information of a function.
+Below are three graphs highlighting the zeroth, second and fourth order approximations of a common trigonometric function. Observe how increasing the number of approximations in the power series begins to build a better approximation, and determine which function these approximations represent.
+Zeroth order approximation:
+f0(x) = 1
+https://d3c33hcgiwev3.cloudfront.net/imageAssetProxy.v1/cNS7jwXWEei_ZQ6W1G11dA_72db4ad96281994251a74f5fae030ab2_cos0.png?expiry=1552176000000&hmac=bjh-A1boVSetjqE3gCRNICzdLQeNVHXV0pRaVYNyCvA
+Second order approximation:
+f_2(x) = 1 - \frac{{x^2}}{2}
+https://d3c33hcgiwev3.cloudfront.net/imageAssetProxy.v1/fedxZwXWEeirxApwydYI3g_1c1e972a7f1fa334902d6dca2905be1a_cos1.png?expiry=1552176000000&hmac=OFPKglD7gvwLSlV3wvRBSdSTEiSxqWb-NUuirVt7vrg
+Fourth order approximation:
+f_4(x) = 1 - \frac{x^2}{2} + \frac{x^4}{24}
+https://d3c33hcgiwev3.cloudfront.net/imageAssetProxy.v1/h5nk1AXWEeiW9BLHgCiRzA_25d60a373a6bd8c2bdce586170539025_cos2.png?expiry=1552176000000&hmac=o0qMt86daN9RWR81fYDRpCSnCMu9d1RUO5JHnTyc4ic
+A1) f(x)=cos(x)
+
+Q2) Below are three graphs highlighting the first, third and fifth order approximations of a common trigonometric function. Observe how the power series begins to build the function, and determine which function these approximations represent.
+First Order:
+f_1(x) = 2x
+https://d3c33hcgiwev3.cloudfront.net/imageAssetProxy.v1/HvCcawXYEeiW9BLHgCiRzA_26d0e00ff9437513ad746a70a3ab1592_2x.png?expiry=1552176000000&hmac=W-sutfSh5_2527U-GmSqbjQuSMEP0JzVl3pe1Fq-ieo
+Third Order:
+f_3(x) = 2x - \frac{4x^3}{3}
+https://d3c33hcgiwev3.cloudfront.net/imageAssetProxy.v1/J26u7AXYEeiW9BLHgCiRzA_b4a653215324368723ef7e81ccb43a86_q23rdorder.png?expiry=1552176000000&hmac=fqlZPc5x5gZnaeqbZstNODFpA_jOPjWz9Mk6HyUkgH8
+Fifth Order:
+f_5(x) = 2x - \frac{4x^3}{3} + \frac{4x^5}{15}
+https://d3c33hcgiwev3.cloudfront.net/imageAssetProxy.v1/MP1HaAXYEeirxApwydYI3g_58d472f8ba5169a3fc20b2987135d20e_q25rdorder.png?expiry=1552176000000&hmac=Yu_tmRpbukhPawfsd1aYWNRCrBJuzOntEozjMlB7eo0
+A2) f(x)=sin(2x)
+
+Q3) The graph below shows the function f(x) = \tan^{-1}(x), select all the power series approximations that can be used to obtain an approximation for this function.
+https://d3c33hcgiwev3.cloudfront.net/imageAssetProxy.v1/CQ91QQXZEeipXhJPEXdVdA_19574e631f86ab0c248fbfaa4e446697_arctan.png?expiry=1552176000000&hmac=ZPLXcVpFXC2aqmRN7CT62T-hecxzJZTrmx1iq5fWmsI
+A3) f(x)=x...
+    f(x) = x-x^3/3
+
+Q4) The sinusoidal function f(x) = \sin(x) f(x)=sin(x) (green line) centered at x = 0 is shown in the graph below. The approximation for this function is shown through the series f(x) = x - \frac{x^3}{6} (orange line). Determine what polynomial order is represented by the orange line.
+https://d3c33hcgiwev3.cloudfront.net/imageAssetProxy.v1/6SpoHQXaEeiu6g4-2AcSqA_ee0c4f2ac2304c150874619d220e1f8c_sinq3.png?expiry=1552176000000&hmac=t-6y4-yNUfltbeHikSnajGJ1NA0k4udhyIiOEfQ4LiI
+A4) Third Order
+
+Q5) The graph below shows the function f(x) = e^x (green line), the exponential function so widely used in science and mathematics today. The orange line represents the zeroth order approximation for the exponential function, centred at x=0. Determine if the pink line shown on the graph is, in fact, an approximation and if so, what order is this approximation.
+https://d3c33hcgiwev3.cloudfront.net/imageAssetProxy.v1/XlyyYgXbEeiW9BLHgCiRzA_0f87e6433e7d1db3ca982dc5e92d5452_expLarge.png?expiry=1552176000000&hmac=J-2uVxhMhA9piXZVQGvYTTq3FkYbEQVaQTQNaOuUg3w
+A5) Not a correct approximation

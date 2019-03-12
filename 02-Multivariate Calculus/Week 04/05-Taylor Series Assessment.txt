@@ -1,0 +1,22 @@
+Q1) Now that we have completed the set of Taylor series lectures and answered all the quiz questions, we now need to test our understanding of Taylor series. We have looked at the derivation of Taylor series, broken it down into a power series approximation, explored special cases and developed the idea of multivariant Taylor series, that is required in order for us to develop a good grounding for the next chapters in this course.
+For the function f(x) = x sin(x) shown below, determine what order approximation is shown by the orange curve, where the Taylor series approximation was centered about x = 0.
+https://d3c33hcgiwev3.cloudfront.net/imageAssetProxy.v1/7mVSigXkEeiu6g4-2AcSqA_f7d58e3995eb2758ae8d64783a3471e8_xsinx.png?expiry=1552608000000&hmac=nc63pGJRUWUWJ-mhTKcaMBAb6l-c2M5TbKq-m8zgbeo
+A1) Sixth Order
+
+Q2) Find the first four non zero terms of the Taylor expansion for the function f(x) = e^x + x + sin(x) about x = 0. The function is shown below:
+https://d3c33hcgiwev3.cloudfront.net/imageAssetProxy.v1/sPyJMwXlEeipXhJPEXdVdA_7d9c7222120d4439ea619b284d45ef03_assq2.png?expiry=1552608000000&hmac=wpODyUEjKvyoGhJ-KtkPw6b5nyxJFsae9GXqKTWnIDc
+A2) f(x) = 1 + 3x + 0.5x^2 + 1/24 * x^4
+
+Q3) The graph below shows the discontinuous function f(x) = \frac{2}{(x^2 - x)}. Approximate the section of this function that covers the domain 0 < x < 1. Use the Taylor series forumla and x=0.5 as your starting point, find the first two non zero terms.
+https://d3c33hcgiwev3.cloudfront.net/imageAssetProxy.v1/BdqcsQXmEeiW9BLHgCiRzA_42344873d63a3448426acfc33386fd8e_q3q2.png?expiry=1552608000000&hmac=PMMBkKW4r2glGRQCsj5Xebwesg1C5Xx8S8WgfUhJ9JE
+A3) f(x) = -8 - 32(x-0.5)^2
+
+Q4) Determine if the function: f(x) = (x/2)^2 * (sin(2x)/2) shown below is odd, even or neither.
+https://d3c33hcgiwev3.cloudfront.net/imageAssetProxy.v1/oevrFAXmEeipXhJPEXdVdA_51bbdb9311a269057be6c36918879497_x2sinx.png?expiry=1552608000000&hmac=TwBUwMdUfOl6E8UZqPiE80DrrLSCXqU7FsWH3F5GFz8
+A4) Odd
+
+Q5) Take the Taylor expansion of the function f(x) = e^-2x about the point x=2 and subsequently linearise the function.
+A5) f(x) = (1/e^4) * [1-2(x-2)] + O(Δx^2)
+
+Q6) The figures below feature functions of two variables with proposed Taylor series approximations in red, expanded around the red circle. Which of the following features a valid second order approximation?
+A6) f(x,y) = x e^{−x^2 + y/4}

@@ -1,0 +1,25 @@
+Q1) The graph below shows the function f(x) = tan^{-1}(x)
+https://d3c33hcgiwev3.cloudfront.net/imageAssetProxy.v1/tL6XiAXhEeiu6g4-2AcSqA_bb28b29e8331f1a6348063e98498483c_arctan.png?expiry=1552176000000&hmac=nOGS2D3ihNxUxCO83aFlYvXiNcTrklASjcGJ8Y589xo
+By using the Maclaurin series or otherwise, determine whether the function shown above is even, odd or neither.
+A1) Odd
+
+Q2) The graph below shows the discontinuous function f(x) = \frac{2}{(x^2 - x)}. For this function, select the starting points that will allow a Taylor approximation to be made.
+https://d3c33hcgiwev3.cloudfront.net/imageAssetProxy.v1/WZyOIQXiEeiu6g4-2AcSqA_4538f2e5391adbf6bf42ec6d29a0a9b1_q3q2.png?expiry=1552176000000&hmac=XEaEG5piogd9dtJAEVVT7mpfGawqCJvnG75oGd0BIN8
+A2) x=0.5
+	x=−3
+	x=2
+
+Q3) For the same function as previously discussed, f(x) = \frac{2}{(x^2 - x)}, select all of the statements that are true about the resulting Taylor approximation.
+https://d3c33hcgiwev3.cloudfront.net/imageAssetProxy.v1/o9ojUAXiEeipXhJPEXdVdA_3e26c086bfb9c87d795019de3fe21ff7_q3q2.png?expiry=1552176000000&hmac=SeOROcYWyoju_lx7YifdYWRxcgdOo3CZvIBfwIMbmSQ
+A3) - Approximation ignores segments of the function
+	- Approximation ignores the asymptotes
+
+Q4) The graph below highlights the function f(x) = \frac{1}{(1+x^2)} (green line), with the Taylor expansions for the first 3 terms also shown about the point x=2. The Taylor expansion is f(x) = \frac{1}{5} - \frac{4(x-2)}{25} + \frac{22(x-2)^2}{125} + ... Although the function looks rather normal, we find that the Taylor series does a bad approximation further from its starting point, not capturing the turning point. What could be the reason why this approximation is poor for the function described.
+https://d3c33hcgiwev3.cloudfront.net/imageAssetProxy.v1/roAqSQXjEeirxApwydYI3g_93faa1b8de092b1d6f49edc8df82d48a_1over1plusx2.png?expiry=1552176000000&hmac=WgLGmhKRE6LWYA89BtGTc24R-RMYO1t362KBPnPkbyM
+A4) - Asymptotes are in the complex plane
+	- It is a discontinuous function in the complex plane
+
+Q5) For the function f(x) = \frac{1}{x}, provide the linear approximation about the point x=4, ensuring it is second order accurate.
+https://d3c33hcgiwev3.cloudfront.net/imageAssetProxy.v1/8ss5_wXjEeiW9BLHgCiRzA_d3e6e9d8d96909638ebb2a4e0cfac07e_1overx.png?expiry=1552176000000&hmac=hhlUNk0ycqoJqdTyYRV6hRxmnYB-9n-kgi3ujYwpi_0
+A5) f(x)=1/4−(x−4)/16+ O(Δx^2)
+
