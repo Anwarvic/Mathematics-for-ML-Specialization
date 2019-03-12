@@ -1,0 +1,111 @@
+Q1) In this quiz we will consider Lagrange multipliers as a technique to find a minimum of a function subject to a constraint, i.e. solutions lying on a particular curve.
+Let's consider the example of finding the minimum of the function,
+f(x)=exp((− 2x^2 + y^2 - xy)/2)
+along the curve (or, subject to the constraint),
+g(x)=x^2 + 3(y+1)^2 − 1 = 0.
+The functions themselves are fairly simple, on a contour map they look as follows,
+https://d3c33hcgiwev3.cloudfront.net/imageAssetProxy.v1/bt-jjwH3Eeio-Q5TVYlsAA_2a986eebdf60a9ce34283dd7650cb0d2_contour.png?expiry=1552435200000&hmac=bWa3sOdfv5PyY3ej8AiJhupeyQaXW4PFRvDuaUXE8hM
+However, their combination can become quite complicated if they were computed directly, as can be inferred from the shape of the constraint on the surface plot,
+https://d3c33hcgiwev3.cloudfront.net/imageAssetProxy.v1/NpmYGQH5Eei70xKyqA_btg_5f79cf147923f7dbfe5c7a0c1dfb49d2_surface.png?expiry=1552435200000&hmac=kdgN9oAH-Ytb7Sgy76KlaDwJ0V3x1MuW1RcEI6Xizc8
+Do note, in this case, the function f(x) does not have any minima itself, but along the curve, there are two minima (and two maxima).
+A situation like this is where Lagrange multipliers come in. The observation is that the maxima and minima on the curve, will be found where the constraint is parallel to the contours of the function.
+Since the gradient is perpendicular to the contours, the gradient of the function and the gradient of the constraint will also be parallel, that is,
+∇f(x)=λ∇g(x)
+If we write this out in component form, this becomes,
+[∂f/∂x, ∂f/∂y] = λ[∂g/∂x, ∂g/∂y]
+This equation, along with g(x)=0 is enough to specify the system fully. We can put all this information into a single vector equation,
+​∇L(x,y,λ) = [∂f/∂x - λ.∂g/∂x, ∂f/∂y - λ.∂g/∂y, -g(x)]
+and then solve this equation to solve the system.
+Let's reflect on what we have done here, we have converted from a question of finding a minimum of a 2D function constrained to a 1D curve, to finding the zeros of a 3D vector equation.
+Whereas this may sound like we have made the problem more complicated, we are exactly equipped to deal with this kind of problem; we can use the root finding methods, such as the Newton-Raphson method that we've discussed previously.
+Let's set up the system,
+The function and two of the derivatives are defined for you. Set up the other two by replacing the question marks in the code below.
+A1) def dgdx (x, y) :
+	    return 2*x
+	def dgdy (x, y) :
+	    return 6*(y+1)
+
+Q2) Next let's define the vector, ∇L, that we are to find the zeros of; we'll call this "DL" in the code. Then we can use a pre-written root finding methodin scipy to solve.
+from scipy import optimize
+
+def DL (xyλ) :
+    [x, y, λ] = xyλ
+    return np.array([
+            dfdx(x, y) - λ * dgdx(x, y),
+            dfdy(x, y) - λ * dgdy(x, y),
+            - g(x, y)
+        ])
+
+(x0, y0, λ0) = (-1, -1, 0)
+x, y, λ = optimize.root(DL, [x0, y0, λ0]).x
+print("x = %g" % x)
+print("y = %g" % y)
+print("λ = %g" % λ)
+print("f(x, y) = %g" % f(x, y))
+Here, the first two elements of the array are the xx and yy coordinates that we wanted to find, and the last element is the Lagrange multiplier, which we can throw away now it has been used.
+Check that (x,y) does indeed solve the equation g(x, y) = 0.
+You should be able to use the code find the other roots of the system.
+Re-use the code above with different starting values (on line 11) to find the other stationary points on the constraint.
+There are four in total. Give the y coordinate of any of the other solutions to two decimal places.
+A2) -1.21
+
+Q3) In the previous question, you gave the yy coordinate of any of the stationary points. In this part, give the xx coordinate of the global minimum of f(x) on g(x)=0.
+Give your answer to 2 decimal places.
+A3) 0.93
+
+Q4) You may be wondering about why the vector ∇L gets a funny symbol. This is because it can be written as the gradient (over x, y, and λ) of a scalar function L(x,y,λ).
+Based on your knowledge of derivatives, what function L(x,y,λ) would give the expected form of ∇L?
+A4) L(x,y,λ)=f(x)−λg(x)
+
+Q5) opefully you've now built up a feeling for how Lagrange multipliers work. Let's test this out on a new function and constraint.
+Calculate the minimum of
+f(x, y) = -\exp(x-y^2+xy)
+on the constraint,
+g(x,y)=cosh(y)+x−2=0
+Use the code you've written in the previous questions to help you. You will want to change the expressions "???".
+A5) 
+# Import libraries
+import numpy as np
+from scipy import optimize
+
+# First we define the functions, YOU SHOULD IMPLEMENT THESE
+def f (x, y) :
+    return -np.exp(x - y*y + x*y)
+
+def g (x, y) :
+    return np.cosh(y) + x - 2
+
+# Next their derivatives, YOU SHOULD IMPLEMENT THESE
+def dfdx (x, y) :
+    return -(1+y)*np.exp(x - y*y + x*y)
+
+def dfdy (x, y) :
+    return (2*y-x)*np.exp(x - y*y + x*y)
+
+def dgdx (x, y) :
+    return 1
+
+def dgdy (x, y) :
+    return np.sinh(y)
+
+# Use the definition of DL from previously.
+def DL (xyλ) :
+    [x, y, λ] = xyλ
+    return np.array([
+            dfdx(x, y) - λ * dgdx(x, y),
+            dfdy(x, y) - λ * dgdy(x, y),
+            - g(x, y)
+        ])
+
+# To score on this question, the code above should set
+# the variables x, y, λ, to the values which solve the
+# Langrange multiplier problem.
+
+# I.e. use the optimize.root method, as you did previously.
+
+x, y, λ = optimize.root(DL, [-1, -1, 0]).x
+print("x = %g" % x)
+print("y = %g" % y)
+print("λ = %g" % λ)
+print("f(x, y) = %g" % f(x, y))
+print("g(x, y) = %g" % g(x, y))

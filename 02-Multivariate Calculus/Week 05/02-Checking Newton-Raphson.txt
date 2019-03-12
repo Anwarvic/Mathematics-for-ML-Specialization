@@ -1,0 +1,2 @@
+Q1) Given the following functions. When applying the Newton-Raphson method, which ones will converge to the specified root (pink dot) from the given starting point (orange dot)?
+A1) DO IT YOURSELF

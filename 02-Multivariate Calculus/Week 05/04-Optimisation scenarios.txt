@@ -1,0 +1,29 @@
+Q1) Given the following contour plot,
+https://d3c33hcgiwev3.cloudfront.net/imageAssetProxy.v1/Y5zM1ggmEeigxxLHgCiRzA_1b53d82db11df49952a011d548c90f64_sp1.png?expiry=1552608000000&hmac=R5kUx2XaZET8q4FYq7BKLjikbQ-dZStSifUOg07-Ze0
+Which starting points (from 1 to 5) are likely to converge to the global minimum (shown by the mobile phone) when using a steepest descent algorithm?
+A1) - Starting point 1
+	- Starting point 3
+	- Starting point 4
+
+Q2) Again, which starting points converge to the global minimum?
+https://d3c33hcgiwev3.cloudfront.net/imageAssetProxy.v1/KwUUWAgnEei8LQpwydYI3g_79365dd05075a76199e3e4df7a871a44_sp2.png?expiry=1552608000000&hmac=wJrRk_Bf1rio6M1dexNZbeU8PULF9qx2FiMdrd8mFyQ
+A2) - Starting point 3
+	- Starting point 4
+	- Starting point 5
+
+Q3) Which starting points converge to the global minimum?
+https://d3c33hcgiwev3.cloudfront.net/imageAssetProxy.v1/IXLn3QgpEei8LQpwydYI3g_11af215710c65e3284564b183c27ea06_sp3.png?expiry=1552608000000&hmac=n2Ih5pdowynq6xBCwmpmkwD1Qp0eRyR3h-Vnef0iHKI
+A3) Starting point 2
+
+Q4) What's happening in this gradient descent?
+https://d3c33hcgiwev3.cloudfront.net/imageAssetProxy.v1/dowH6QgpEeigxxLHgCiRzA_b0ed3db50dde1c61203d77f2f26b9cf6_sp4.png?expiry=1552608000000&hmac=4a1LINrKttShGp5M5wmI7Ony-em2LqCclMhJXA8IG4E
+A4) The global minimum is in a wide and flat basin, so convergence is slow
+
+
+Q5) What is happening here?
+https://d3c33hcgiwev3.cloudfront.net/imageAssetProxy.v1/AyJ6vQgqEeiIOArs7r1YtA_0dc7a1af1b4b0d6141b40ae76bfe2fec_sp5.png?expiry=1552608000000&hmac=J-vQt0c6kg47FZ6dKKPhXYxbIGBjKlmd5A8yCujmi2E
+A5) The algorithm is passing either side of a saddle point.
+
+Q6) What is happening here?
+https://d3c33hcgiwev3.cloudfront.net/imageAssetProxy.v1/FUoyUAgrEeiFCA4-2AcSqA_d7fac07a47f90050c3f4397c7730757b_sp6.png?expiry=1552608000000&hmac=FRYLjMiWDSrjmEnEKoIIETHnIo0-2EkkWHx-1eVJgSg
+A6) The Jacobian at the starting point is very large.
