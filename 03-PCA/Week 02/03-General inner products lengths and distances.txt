@@ -1,0 +1,22 @@
+Q1) Compute the length of [1, -1, 3] using the inner product defined 
+⟨a,b⟩=a^T [[2, 1, 0], [1, 2, -1], [0, -1, 2]] b
+Do the exercise using pen and paper.
+A1) sqrt(29)
+
+Q2) Compute the squared distance between x = [1/2, -1, -1/2] and y=[0, 1, 0] using the inner product defined as
+⟨a,b⟩=a^T [[2, 1, 0], [1, 2, -1], [0, -1, 2]] b
+Do the exercise using pen and paper.
+A2) 5
+
+Q3) https://d3c33hcgiwev3.cloudfront.net/imageAssetProxy.v1/jDLvqAQ7Eei0MhKZx9hCGA_bfaa1376cef9a59470ada7cb973ea0bb_week2_vec-11.png?expiry=1552694400000&hmac=SlOfP1pbe5DdclUEOla0kRi7RunsSvgPuwSlmUtTqFA
+Compute the length of x=[−1, 1] using the inner product defined by ⟨a,b⟩=a^T . 1/2 * [[5, -1], [-1, 5]] . b
+Do the exercise using pen and paper.
+A3) sqrt(6)
+
+Q4) Compute the distance (not squared) between x=[4, 2, 1] and y=[0, 1, 0] using the inner product defined as ⟨a,b⟩=a^T . 1/2 * [[2, 1, 0], [1, 2, -1], [0, -1, 2]] . b
+Do the exercise using pen and paper (and calculator if necessary). Please enter a decimal number.
+A4) 6.48
+
+Q5) Compute the length of x=[-1, -1, -1] using the inner product defined as ⟨a,b⟩=a^T I b where I is the identity matrix.
+Do the exercise using pen and paper.
+A5) sqrt(3)
