@@ -1,0 +1,18 @@
+Q1) Compute the covariance matrix for the following dataset
+D={[1, 5], [2, 4]]}
+Here, every column vector represents a data point.
+Do the exercise using pen and paper.
+A1) [[4, 2], [2, 1]]
+
+Q2) Consider a data set D with covariance matrix [[3,2], [2, 4]]. What is the covariance matrix if we multiply every vector in D by 2?
+A2) [[12, 8], [8, 16]]
+
+Q3) Consider the data set D = [[1, 7], [2, 4]] with covariance matrix [[9, 3], [3, 1]].
+Compute the new covariance matrix when we add [2, 2] to each element in D.
+A3) [[9, 3], [3, 1]]
+
+Q4) Provide a valid 2x2 covariance matrix by replacing the -1 entries in the code below.
+A4) [[9, 3], [3, 1]]
+
+A5) We are looking at a data set D where every element in D consists of an x and y coordinate. The data covariance matrix is given by [[1, 0.8], [0.8, 1]]. Which of the following statements is correct?
+A5) x and y are positively correlated, i.e., when x increases then y increases on average, and vice versa.

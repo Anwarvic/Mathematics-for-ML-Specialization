@@ -1,0 +1,23 @@
+Q1) What is the mean of the dataset \mathcal D = {1, 2, 3}?
+Do the exercises using pen and paper.
+A1) 2
+
+Q2) Compute the mean of the following dataset:
+D = [[1, 2, 3], [4, 5, 6], [7, 8, 9]]
+Do the exercises using pen and paper.
+A2) [2, 5, 8]
+
+Q3) What is the mean of the following dataset, after multiplying each sample in the dataset by 2?
+D = [[1, 3, 5], [2, 4, 3], [3, 5, 1]]
+A3) [6, 6, 6]
+
+Q4) What is the mean of the following dataset, after adding [1, 2, 3] to each sample in the following dataset?
+D = [[1, 3, 5], [2, 4, 3], [3, 5, 1]]
+A4) [4, 5, 6]
+
+Q5) Assuming that we know the mean \bar{x}_{n-1} of a dataset D_{n-1} with n−1 data points. Now, suppose that we collect another data point, which we denote by x_*. Select the correct formula that computes the correct new mean \bar{x_n } of the full data set D_n = D_{n-1} U {x_*}, i.e., we add x_* to the dataset D.
+A5) xnˉ = x_{n-1}ˉ + 1/n+1 * (x_{n-1}ˉ - x∗)
+
+Q6) Assuming you are given an image as a two dimensional array of shape 28 x 28. Write a small piece of python code to reshape this image to a vector of length 784 (=28 x 28).
+Hint: This can be a one-liner.
+A6) x_reshaped = np.reshape(x, -1)
