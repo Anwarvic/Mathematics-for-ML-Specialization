@@ -1,0 +1,43 @@
+Q1) In the previous video you saw how to fit a line y = mx+cy=mx+c to linear data. In this quiz you will practise identifying data that is appropriate for linear regression, and initialise some fits yourself.
+Which of the following figures looks like it contains sensible data for a linear fit?
+A1) https://d3c33hcgiwev3.cloudfront.net/imageAssetProxy.v1/34H0TABmEeioigpAcEC6QA_4a1fa4cd20b65752f54fd71d7301792c_LinOrNot_1aa.png?expiry=1552435200000&hmac=7fwvOgxLmCfSMoml72kTnA_H3D15CJApYGZqT80-c84
+
+Q2) Which of the following figures looks like it contains sensible data for a linear fit?
+A2) https://d3c33hcgiwev3.cloudfront.net/imageAssetProxy.v1/hRzfXQBsEeiFAxLx1hQ1nA_dc4f8149c647f5dbfd0d5519f6d15efe_LinOrNot_2d.png?expiry=1552435200000&hmac=pXK6opkxpaoKjpsD1B2QlrZb-Ci4q4MpZeZ7OH3LYMk
+
+Q3) Now that we've identified candidates for linear regression we can do some linear fitting ourselves. The code block below plots some predefined data points and a linear regression with the values [m,c], where m is the gradient and cc is the y-intercept. It also gives the χ^2 value discussed in the previous video, which is a measure of how good the fit is.
+Play with the values of m and c to get a sense for how different linear fits affect χ^2, then try to find the best possible fit to the data.
+The minimum χ^2 value is 0.03819 to 4 significant figures. Try to find a fit with χ^2≤0.04 and then input these values into the following code block:
+A3) p = [-0.27, 0.8]
+
+Q4) Fitting by eye is not that easy even for small sets of data. Let's make some linear fits using the maths discussed in the previous video.
+The following is a figure with 5 data points, labelled with their (x,y) coordinates:
+https://d3c33hcgiwev3.cloudfront.net/imageAssetProxy.v1/Tqk2awFKEei8sQphsIDdpA_f081867d45b77bc0179cbf16b490c1e5_W6Q4.png?expiry=1552435200000&hmac=27Qr55Ei-DHBGyf5EugcMHOmL2lXGOUZinCfwt63SqA
+Let's fit a linear regression to this small sample by hand. Recall that we can use χ^2 to measure how good our fit is, defined by:
+χ^2 = \sum (y_i - m x_i -c)^2
+and that we can find the minimum of χ^2 by differentiating it and setting it to zero. This leads us to the equations for m and c,
+m = \frac{\sum(x_i-\bar{x})y_i}{\sum(x_i-\bar{x})^2}, \hspace{10mm} c = \bar{y} - m \bar{x}
+which minimise χ^2.
+Use these equations to calculate the mm and cc which minimise χ^2 for the 5 data points given above and select the correct values below:
+A4) m=2, c = -0.7
+
+Q5) As you have seen it can be quite a lot of effort to fit even 5 data points when doing the maths by hand. Often it's necessary to work with much larger data sets, so let's consider a new example with 50 data points. Instead of doing it by hand we'll implement a function to do the maths for us.
+Run the following code block first to see the data without any kind of linear fit. The function linfit is being defined inside the code block. Your task is to edit the definition so that linfit takes the array of x data, xdat, and the array of y data, ydat, and returns the correct m and c to create a linear fit which minimises χ^2.
+The calculation for \bar{x}, xbar, and \bar{y}, ybar, is already given. As you can see numpy has been imported as np.
+
+Use the above code block to test your code. When you are confident that you have correctly defined the function, put it into the next codeblock and run it, being careful not to include line() in your answer.
+A5) # Insert calculation of m and c here. If nothing is here the data will be plotted with no linear fit
+  	x_numerator = np.sum((xdat-xbar)*ydat)
+  	x_denominator = np.sum((xdat-xbar)**2)
+  	m = x_numerator/x_denominator
+  	c = ybar - (m * xbar)
+
+Q6) While it is informative to write the code ourselves, as in the previous question, in practice functions which do various types of regression are implemented in lots of programming languages. There are several of these in python.
+One such example is the scipy.stats.linregress() method, which takes arrays of x data and y data in exactly the same way as the linfit() function you defined in the previous question. As an output it gives the slope mm and intercept cc as well as a few useful statistical measures like the standard error.
+In the following code block, the x data is again stored in the xdat array, and the y data in the ydat array. Call the method stats.linregress() with the data arguments, and then pass the output to line() to plot the regression.
+
+Hopefully it is clear that linregress() does everything linfit() did and more, without having to write it yourself!
+Once you're happy that you've implemented things correctly in the above code block, repeat the same in the following code block without the last line to complete the question.
+A6) regression = stats.linregress(xdat, ydat)
+
+	regression = stats.linregress(xdat, ydat)
