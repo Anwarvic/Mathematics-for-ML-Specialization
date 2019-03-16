@@ -1,0 +1,19 @@
+Q1) Consider the function h:R→R, where h(t) = (f∘g)(t) = f(g(t)) with g(t)=x=[t.cos(t), t.sin(t)], t∈R. f(x)=exp(x1.x2^2), x = [x1, x2]∈R^2
+A1) - dh/dh = exp(x1.x2^2)[x2^2(cost−t.sint)+2x1.x2(sint+t.cost)] with x1 = t.cos(t), x2 = t.sin(t)
+	- dg/dt = [cos(t)-t.sin(t), sin(t)+t.cos(t)]
+	- df/dx = [x2^2 exp(x1.x2^2), 2x1.x2.exp(x1.x2^2)]
+	- dh/dt = df/dg . dg/dt
+
+Q2) Compute df/dx of the following function using the chain rule.
+	a = x^2
+	b = exp(a)
+	c = a+b
+	d = log(c)
+	e = sin(c)
+	f = d+e
+A2) df/dx = .../x^2 + exp(x^2)
+
+Q3) What is df/dx where
+	f = cos(t^2)
+	t = x^3
+A3) −6x^5 sin(x^6)
