@@ -1,0 +1,10 @@
+Q1) Compute the projection matrix that allows us to project any vector x∈R^3 onto the subspace spanned by the basis vector b= [1, 2, 2].
+Do the exercise using pen and paper. You can use the formula slide that comes with the corresponding lecture.
+A1) 1/9 [[1, 2, 2], [2, 4, 4], [2, 4, 4]]
+
+Q2) Given the projection matrix 1/25[[9, 0, 12], [0, 0, 0], [12, 0, 16]] project [1, 1, 1] onto the corresponding subspace, which is spanned by b = [3, 0, 4].
+Do the exercise using pen and paper.
+A2) 1/25 [21, 0, 28]
+
+Q3) Now, we compute the reconstruction error, i.e., the distance between the original data point and its projection onto a lower-dimensional subspace. Assume our original data point is [1, 1, 1] and its projection 1/9[5, 10, 10] . What is the reconstruction error?
+A3) 4.447
