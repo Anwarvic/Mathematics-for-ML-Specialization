@@ -15,8 +15,8 @@ Q3) Solve the system of equations given by:
 A3) x=−7/3, y= 2/3
 
 Q4) Solve the system of equations given by:
-	5x + 7y = 115x+7y=11
-	20x - 18y = 3920x−18y=39
+	5x + 7y = 11
+	20x - 18y = 39
 A4) x= 471/230, y= 5/46
 
 Q5) Solve the system of equations given by:
@@ -24,5 +24,3 @@ Q5) Solve the system of equations given by:
 	x + y + z = 2
 	3x - 2y - z = 3
 A5) x=1, y=−1, z=2
-​	
-​	
