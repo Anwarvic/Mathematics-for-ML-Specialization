@@ -1,0 +1,10 @@
+A1) f(x)=cos(x)
+
+A2) f(x)=sin(2x)
+
+A3) f(x)=x...
+    f(x) = x-x^3/3
+
+A4) Third Order
+
+A5) Not a correct approximation

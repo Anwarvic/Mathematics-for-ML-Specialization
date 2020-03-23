@@ -1,0 +1,9 @@
+A1) sqrt(11)
+
+A2) 2.9997
+
+A3) 5.39
+
+A4) length_x = np.sqrt(np.sum(x**2))
+
+A5) 0.704

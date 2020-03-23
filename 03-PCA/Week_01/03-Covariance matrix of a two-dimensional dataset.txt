@@ -1,0 +1,9 @@
+A1) [[4, 2], [2, 1]]
+
+A2) [[12, 8], [8, 16]]
+
+A3) [[9, 3], [3, 1]]
+
+A4) [[9, 3], [3, 1]]
+
+A5) x and y are positively correlated, i.e., when x increases then y increases on average, and vice versa.

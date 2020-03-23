@@ -1,0 +1,8 @@
+A1) - The projection of x onto U is [5, 2, -1]
+    - The coordinates of the projected point with respect to b1, b2 are [5, -3]
+    - The projection matrix is 1/6[[5, 2, -1], [2, 2, 2], [-1, 2, 5]]
+    - The projection matrix is symmetric.
+
+A2) [3, 2, 3]
+
+A3) [10, 4, -2]

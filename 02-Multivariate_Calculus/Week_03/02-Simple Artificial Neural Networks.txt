@@ -1,0 +1,10 @@
+A1) w^(1)=−5, b^(1)=5
+
+A2) a1 = np.array([0.76, -0.76])
+
+A3) - This neural network has 5 biases.
+    - The number of weights in a layer is the product of the input and output neurons to that layer.
+
+A4) a^(2)=σ( W^(2) σ(W^(1) a^(0)+b^(1))+b^(2) ),
+
+A5) Just Interact

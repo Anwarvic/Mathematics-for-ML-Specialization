@@ -1,0 +1,15 @@
+A1) - Starting point 1
+    - Starting point 3
+    - Starting point 4
+
+A2) - Starting point 3
+    - Starting point 4
+    - Starting point 5
+
+A3) Starting point 2
+
+A4) The global minimum is in a wide and flat basin, so convergence is slow
+
+A5) The algorithm is passing either side of a saddle point.
+
+A6) The Jacobian at the starting point is very large.

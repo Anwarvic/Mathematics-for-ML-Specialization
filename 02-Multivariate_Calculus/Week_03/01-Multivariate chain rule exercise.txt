@@ -1,0 +1,9 @@
+A1) df/dt = ∂f/∂x . dx/dt = [2.x1.x2^2+x2, 2.x1^2.x2+x1] .[[-2t], [2t]]
+
+A2) df/dt = ∂f/∂x . dx/dt = [3.x1^3.cos(x2).e^x3, -x1^3.sin(x2).e^x3, x1^3.cos(x2).e^x3] [[2], [-2t], [e^t]]
+
+A3) df/dt = ∂f/∂x . ∂x/∂u .du/dt = [2x1, -2x2] . [[2, 3], [2, -3]] . [[-sin(t/2)/2], [2cos(2t)]]
+
+A4) df/dt = ∂f/∂x . ∂x/∂u .du/dt = [-sin(x1).sin(x2), cos(x1).cos(x2)] . [[4u1, 6u2-1], [2, -15u2^2]] . [[1/2.e^t/2], [-2e^2t]]
+
+A5) df/dt = ∂f/∂x . ∂x/∂u .du/dt = [cos(x1).cos(x2).e^x3, -sin(x1).sin(x2).e^x3, sin(x1).cos(x2).e^x3] . [[cos(u1), -sin(u2)], [-sin(u1), -cos(u2)], [e^{u1+u2}, 2e^{u1+u2}]] . [[1/2], [1/2]]

@@ -1,0 +1,18 @@
+A1) r' = r - s^(r.e3^)/s3
+
+A2) ri' = (Iij - si[e3^]/s3) rj
+    ri' = (Iij - si I3j/s3) rj
+    ri' = ri - si[e3^]j/rj)/s3
+    ri' = ri - si r3/s3
+
+A3) [[1, 0, -s1/s3]
+     [0, 1, -s2/s3]]
+
+A4) # Fill in the components of the 'third' row of A,
+    A3 = [0, 0, 0]
+
+A5) # Give the coordinates for r'
+    rp = [5, 11/4]    (WRONG)
+
+A6) Rp = [[8,  0,  -3,  11],
+          [7/4,  -19/4,  1,  -5]]

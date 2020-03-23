@@ -1,0 +1,28 @@
+A1) A = [[1, 1, 1],
+         [3, 2, 1],
+	 [2, 1, 2]]
+    s = [15, 28, 23]
+
+A2) The new second row, ②′′ is the old second row minus three times the old first row, then all multiplied by -2, i.e., ②′′=[②′−3①′]×(−2).
+
+A3) [[1, 3/2, 1/2]    [a    [9/4
+ 	 [0,   1,   1]  .  b  = -1/2
+ 	 [0,   0,   1]]    c]     0]
+
+A4) [3, -1/2, 0]
+
+A5) # Replace A and s with the correct values below:
+    A = [[ 1 , 1, 1],
+	 [ 0,  1, 0],
+	 [ 0,  0 , 1]]
+    s = [15, 7, 5]
+
+A6) # Replace a, b, and c with the correct values below:
+    s = [3, 7, 5]
+
+A7) # Replace the matrix elements with the correct values below:
+    Ainv = [[-1.5, 0.5, 0.5],
+	    [2, 0, -1],
+	    [0.5, -0.5, 0.5]]
+
+A8) s = [9, 7, 2]

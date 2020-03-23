@@ -1,0 +1,9 @@
+A1) f′(x)g(x)+f(x)g′(x)
+
+A2) f′(x)=6x+3
+
+A3) f′(x)=e^x(x^2+9x+4−sin(x)−cos(x))
+
+A4) f′(x)=(x^2+3)cos(x)−(x^2 −4x+7)sin(x)
+
+A5) f′(x)=e^x((3x+1)sin(x)+(3x−2)cos(x))

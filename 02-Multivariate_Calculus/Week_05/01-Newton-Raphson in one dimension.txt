@@ -1,0 +1,10 @@
+A1) x**5-12*x**3-2*x**2+27*x+18
+
+A2) 1.063
+
+A3) -3.760
+
+A4) - The method takes over 15 iterations to converge.
+    - The method converges to the root nearest x=-4
+
+A5) Yes, to the root nearest x=1.

@@ -1,0 +1,9 @@
+A1) 0.5
+
+A2) 0.707
+
+A3) 0.5
+
+A4) The variance of the new dataset will be four times the variance of \mathcal DD.
+
+A5) σ_n^2 = n-1/n *​ σ_{n−1}^2 + 1/n (x∗ - x_{n-1}ˉ) (x∗ - x_{n}ˉ)

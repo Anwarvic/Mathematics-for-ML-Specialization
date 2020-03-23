@@ -1,0 +1,17 @@
+A1) J = [[2x, -2y],
+         [2y, 2x]]
+
+A2) J = [[2, 3, 0],
+         [-sin(x).sin(z), 0, cos(x).cos(y)]
+         [e^x.e^y.e^z, e^x.e^y.e^z, e^x.e^y.e^z]]
+
+A3) J = [[a, b]
+         [c, d]]
+
+A4) J =[[0, 0, 1]
+        [0, 0, 2]
+        [0, 0, 1]]
+
+A5) [[cos(θ).sin(ϕ), -r.sin(θ).sin(ϕ), r.cos(θ).cos(ϕ)],
+     [sin(θ).sin(ϕ), r.cos(θ).sin(ϕ), r.sin(θ).cos(ϕ)],
+     [cos(ϕ), 0, -r.sin(ϕ)]]

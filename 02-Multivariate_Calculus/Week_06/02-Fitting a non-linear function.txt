@@ -1,0 +1,14 @@
+A1) - Option A
+    - Option B
+    - Option C
+    - Option E
+
+A2) - The parameter χ is squared so that positive and negative residuals are penalised equally.
+    - Taking the gradient of χ^2 and setting this to zero allows us to determine effective fitting parameters.
+
+A3) ∂f/∂a1 = x^3, ∂f/∂a2 = -x^2, ∂f/∂a3 = -x.e^{-a3.x}
+
+A4) ∂(χ2)/∂a1=−2∑[yi−a1(1−e^{−a2.xi^2})](1−e^{−a2.xi^2})
+    ∂(χ2)/∂a2=−2∑[yi−a1(1−e^{−a2.xi^2})](a1.xi^2.e^{−a2.xi^2})
+
+A5) ∂y/∂xp = I/sqrt(2π) * (x-xp)/σ^3 * exp^{-(x-xp)^2/(2σ^2)}

@@ -1,0 +1,8 @@
+A1) - dh/dh = exp(x1.x2^2)[x2^2(cost−t.sint)+2x1.x2(sint+t.cost)] with x1 = t.cos(t), x2 = t.sin(t)
+    - dg/dt = [cos(t)-t.sin(t), sin(t)+t.cos(t)]
+    - df/dx = [x2^2 exp(x1.x2^2), 2x1.x2.exp(x1.x2^2)]
+    - dh/dt = df/dg . dg/dt
+
+A2) df/dx = .../x^2 + exp(x^2)
+
+A3) −6x^5 sin(x^6)

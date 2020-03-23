@@ -1,0 +1,13 @@
+A1) Odd
+
+A2) x=0.5
+    x=−3
+    x=2
+
+A3) - Approximation ignores segments of the function
+    - Approximation ignores the asymptotes
+
+A4) - Asymptotes are in the complex plane
+    - It is a discontinuous function in the complex plane
+
+A5) f(x)=1/4−(x−4)/16+ O(Δx^2)

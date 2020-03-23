@@ -1,0 +1,10 @@
+A1) f′(x)=g′(h(x))h′(x)
+
+Q2) Differentiate with respect to xx the function f(x) = \sqrt{x^3 - 2x} = (x^3 - 2x)^{1/2}
+A2) f′(x)=(3x^2 -2) / (2*sqrt(x^3 −2x))
+
+A3) f′(x)=3x^2 . e^(x^3 −3)
+
+A4) f′(x)= sqrt(e^(x+2))/2
+
+​A5) f′(t)=f′(y(x(t))).y′(x(t)).x′(t)

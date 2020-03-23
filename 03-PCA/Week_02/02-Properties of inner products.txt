@@ -1,0 +1,20 @@
+A1) - bilinear
+    - symmetric
+    - positive definite
+    - an inner product
+
+A2) - bilinear
+    - symmetric
+    - not positive definite
+    - not an inner product
+
+A3) - bilinear
+    - not symmetric
+    - not an inner product
+
+A4) - bilinear
+    - symmetric
+    - positive definite
+    - an inner product
+
+A5) dot_product = a.T @ b

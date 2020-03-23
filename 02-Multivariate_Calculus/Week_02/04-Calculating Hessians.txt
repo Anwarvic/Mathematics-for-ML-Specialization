@@ -1,0 +1,16 @@
+A1) H = [[6xy, 3x^2],
+         [3x^2, 0]  ]
+
+A2) [[e^x.cos(y) ,-e^x.sin(y)],
+     [-e^x.sin(y) ,-e^x.cos(y)]]
+
+A3) H = [[1, 1], 
+         [1, 1]]
+
+A4) H = [[2e^-y.cos(z), -2x.e^-y.cos(z), -2x.e^-y.sin(z)],
+         [-2x.e^-y.cos(z), x^2.e^-y.cos(z), x^2.e^-y.sin(z)],
+         [-2x.e^-y.sin(z), x^2.e^-y.sin(z), -x^2.e^-y.cos(z)]]
+
+A5) H = [[0, e^y, 0],
+         [e^y, x.e^y+2cos(z), -2y.sin(z)],
+         [0, -2y.sin(z), -y^2.cos(z)]]

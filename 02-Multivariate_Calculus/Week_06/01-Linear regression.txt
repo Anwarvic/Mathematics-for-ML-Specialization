@@ -1,0 +1,16 @@
+A1) [4]
+
+A2) [1]
+
+A3) p = [-0.27, 0.8]
+
+A4) m=2, c = -0.7
+
+A5) # Insert calculation of m and c here. If nothing is here the data will be plotted with no linear fit
+    x_numerator = np.sum((xdat-xbar)*ydat)
+    x_denominator = np.sum((xdat-xbar)**2)
+    m = x_numerator/x_denominator
+    c = ybar - (m * xbar)
+
+A6) regression = stats.linregress(xdat, ydat)
+    regression = stats.linregress(xdat, ydat)

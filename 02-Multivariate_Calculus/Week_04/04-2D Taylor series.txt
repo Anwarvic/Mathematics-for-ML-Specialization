@@ -1,0 +1,9 @@
+A1) Zeroth order
+
+A2) Second order
+
+A3) f(x,y)=xsin(x^2/2 + y^2/4)
+
+A4) f1(−1+Δx,2+Δy)=−4e^−3 - 12e^−3 .Δx + 4e^−3 Δy
+
+A5) H_f = [[-2π, -2], [-2, 0]]

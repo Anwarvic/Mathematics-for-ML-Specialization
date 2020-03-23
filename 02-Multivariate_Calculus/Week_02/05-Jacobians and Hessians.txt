@@ -1,0 +1,9 @@
+A1) J(x,y,z)=(−2π,−e,0)
+
+A2) [[0, e^π], [1, e^π]]  (WRONG)
+
+A3) [[6x.cos(x), -3x^2.sin(y)-cos(y)], [-3x^2.sin(y)-cos(y), x.sin(y)-x^3.cos(y)]]
+
+A4) H = [[e^x.z^3, 1, 3e^x.z^2], [1, -sin(y).sin(z), cos(y).cos(z)], [3e^x.z^2, cos(y).cos(z), 6e^x.z-sin(y).sin(z)]]
+
+A5) [[0, 1, 0], [1, 0, 0], [0, 0, 0]]

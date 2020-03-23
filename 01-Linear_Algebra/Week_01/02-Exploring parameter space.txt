@@ -1,0 +1,19 @@
+A1) - There are at least 15 elements in the frequency vector, \mathbf{f}f.
+    - If another sample was taken under the same conditions, the frequencies would be broadly similar.
+    - The total area of all the bins sums to one.
+
+A2) =[ 155
+       12​]
+
+A3) Graph (1)
+
+A4) - Keep the standard deviation, σ, approximately the same.
+    - Increase the mean μ.
+
+A5) μ = 178 ; σ = 7.5 -> 0.000475
+	p = [178, 7.5]
+
+A6) - Moving at right angles to contour lines in the parameter space will have the greatest effect on the fit than moving in other directions.
+    - Each point on the surface represents a set of parameters p}=[μ, σ]
+
+A7) Δp=[−2, 2]
